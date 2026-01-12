@@ -13,5 +13,6 @@ function smallNumber(arr) {
     }
   }
   return min;
+  
 }
 console.log(smallNumber(arr));
