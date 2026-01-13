@@ -5,14 +5,15 @@ let arr = [-9, -3, -6, -98];
 
 function smallNumber(arr) {
   //   let min = -1;
-  //   let min = arr[0];
+  //   let mi n = arr[0];
   let min = Infinity;
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] < min) {
       min = arr[i];
     }
   }
-  return min;
   
+  return min;
+
 }
 console.log(smallNumber(arr));
