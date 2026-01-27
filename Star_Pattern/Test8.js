@@ -19,4 +19,5 @@ function printAlternatingBinaryTriangle(n) {
   }
   return str;
 }
+
 console.log(printAlternatingBinaryTriangle(n));
