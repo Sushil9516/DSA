@@ -7,6 +7,7 @@
 //5. if array only two same elements [10,10]
 
 function findSecondLargest(arr) {
+  
   if (arr.length < 2) return "Array should have atleast 2 elements.";
   let firstMax = -Infinity;
   let secondMax = -Infinity;
