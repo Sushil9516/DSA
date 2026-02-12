@@ -25,6 +25,5 @@ function findSecondLargest(arr) {
 
 // let arr = [10, 50, 12, 200, 15, 7, 3, 100];
 // let arr = [10, 20, 20];
-
 let arr = [20, 20];
 console.log(findSecondLargest(arr));
