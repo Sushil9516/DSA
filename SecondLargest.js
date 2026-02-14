@@ -18,7 +18,7 @@ function findSecondLargest(arr) {
       firstMax = arr[i];
     } else if (arr[i] > secondMax && arr[i] !== firstMax) {
       secondMax = arr[i];
-      
+      a
     }
   }
   return secondMax === -Infinity ? "No second largest found" : secondMax;
