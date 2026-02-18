@@ -16,6 +16,7 @@ function removeDuplicates(nums) {
   return k;
 }
 let result = removeDuplicates(nums);
+
 console.log(result);
 
 //===============================================Akshay's SOLUTION===============================================
@@ -30,5 +31,6 @@ function removeDuplicates2(nums) {
   }
   return k + 1;
 }
+
 let result1 = removeDuplicates2(nums);
 console.log(result1);
