@@ -21,6 +21,7 @@ console.log(result);
 
 //===============================================Akshay's SOLUTION===============================================
 // let nums = [1, 1, 1, 2, 2, 2, 2, 3, 3, 4, 4, 4, 4, 5, 5, 6, 7, 7];
+
 function removeDuplicates2(nums) {
   let k = 0;
   for (let i = 0; i < nums.length; i++) {
