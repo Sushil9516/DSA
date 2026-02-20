@@ -10,4 +10,5 @@ function CountDigit(n) {
   return count;
 }
 let num = -2500;
+
 console.log(CountDigit(num));
