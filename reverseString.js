@@ -18,7 +18,7 @@ let s = ["h", "e", "l", "l", "o"];
 // ====================================================Approach 2 (Best Approach)=============================================================
 function reverseString(s) {
   let temp = "";
-  for (let i = 0; i < s.length / 2; i++) {
+  for (let i = 0; i < Math.trunc(s.length / 2); i++) {
     temp = s[s.length - 1 - i];
     s[s.length - 1 - i] = s[i];
     s[i] = temp;
